@@ -1,0 +1,11 @@
+<pre>
+--------- Biodata Mahasiswa ---------
+{% if biodata %}
+Nama : {{ biodata.nama }}
+NIM  : {{ biodata.nim }}
+{% else %}
+Data mahasiswa belum diinput
+{% endif %}
+</pre>
+
+<a href="/">Kembali</a>
